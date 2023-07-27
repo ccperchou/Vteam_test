@@ -1,0 +1,22 @@
+--------- 
+ READ ME
+---------
+
+This project is composed by a main  python script : main.py and differents function into the folder functions, example: the script logs.py will store the logs 
+This is a functions overview :
+- logs.py
+This function store the logs into a documents
+- hash_fnct.py
+This function return the hashing value of a document 
+- synchronisation. py
+This script check two folders and will compare the hashing value of each document to synchronise the two folders
+
+To use the main script you can write into the terminal 
+
+python .\main.py sourcepathfolder replicapathfolder intervalinseconds logsfilepath
+
+example : 
+python .\main.py Source Replica 1 logs
+
+
+To end the script : Ctrl + C 
